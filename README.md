@@ -1,4 +1,4 @@
-# GetVinData
+# VinDecoderEngine
 
 A lightweight C# console application that reads VINs from a SQL Server table, decodes them using the NHTSA Vehicle API, and extracts trim-level data using manufacturer-specific parsing rules.
 
@@ -31,7 +31,7 @@ The solution is currently organized as a simple console app with separate folder
 ## Project Structure
 
 ```text
-GetVinData_Public
+GetVinData
 ├── GetVinData.sln
 └── GetVinData
     ├── API
